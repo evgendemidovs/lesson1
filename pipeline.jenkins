@@ -34,7 +34,7 @@ pipeline {
         stage('build image'){
             steps{
                 dir('lesson-1'){
-                    sh 'docker build -t evgendemidovs/jenkins-images:0.1 .'
+                    sh 'docker build -t evgendemidovs/jenkins-images:0.2 .'
                 }
             }
         }
